@@ -1,0 +1,138 @@
+.detail{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+.absolute{
+    width: 100%;
+    height: 80px;
+}
+.containerImagen{
+    width: 450px;
+    height: 300px;
+    position: relative;
+}
+.containerImagen>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+   
+}
+.containerImagen::after{
+    content: '';
+    position: absolute;
+    width: 450px;
+    height: 295px;
+    border: 2px solid #ff9900;
+    right: -10px;
+    border-radius: 20px;
+    z-index: -1;
+    bottom: -10px;
+}
+.infoDetail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.flexPrincipal{
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.infoPrincipal{
+   
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.infoPrincipal>h1{
+    font-size: 2.5rem;
+    color: #ff9900;
+    max-width: 400px ;
+}
+.infoPrincipal>h4{
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.infoPrincipal>h4>b{
+    color: #ff9900;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.flexCenter{
+    display: flex;
+    justify-content: space-around;
+    /* column-gap: 10%; */
+    width: 90%;
+    margin-bottom: 25px;
+}
+.resumen {
+    justify-self: center;
+    width: 75%;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: rgb(230, 228, 228);
+
+}
+.resumen>a{
+    color: #ff9900 ;
+}
+.steps{
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+   
+}
+.steps>b{
+    color: #ff9900;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.infoSteps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.infoSteps>li{
+    color: #ff9900;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    list-style: none;
+}
+.infoSteps>b{
+    justify-self: center;
+    align-self: center;
+    width: 75%;
+    font-family: 'Unna';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+}

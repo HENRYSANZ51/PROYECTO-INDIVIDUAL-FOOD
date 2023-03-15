@@ -1,0 +1,104 @@
+.containergrid{
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background: url('../../img/fondoLanding.png') center center/cover no-repeat;
+   
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+}
+.redes>div {
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+   
+}
+.iconLanding{
+    color: white;
+    font-size: 1.5rem;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* column-gap: 50px; */
+}
+.video{
+    width: 402px;
+    height: 210.76px;
+    border-radius: 30px;
+    overflow: hidden;
+   
+}
+.video>video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.mainimg{
+    width: 500px;
+}
+.mainimg>img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    object-position: end;
+}
+.info>h3{
+    font-family: 'Sacramento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.info>h1{
+    font-size: 5rem;
+}
+.info>p{
+    color: #FF9900;
+    margin-bottom: 10px;
+}
+.btnstart{
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    width:197px;
+    height:48px;
+    background: none;
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+    
+}
+.btnstart:hover{
+    color: #FF9900;
+    border: 1px solid #FF9900;
+}
+.colum2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: none;
+    align-self: none;
+    margin-top: 60px;
+}
+.iconLanding:hover{
+    color: #FF9900;
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.SearchBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    z-index: 40;
+    
+}
+.nav>ul {
+    display: flex;
+    column-gap: 35px;
+    list-style: none;
+    font-family: 'Coda Caption';
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+
+.inputSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    background: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.inputSearch>button {
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+.inputSearch>input {
+    background: none;
+    outline: none;
+    border: none;
+}
+.iconsearch {
+    color: #FF9900;
+}
+.inactivelink{
+    color: #FF9900;
+    text-decoration: none;
+    
+}
+
+.inactivelink:hover {
+    color: white;
+    text-decoration: none;
+
+}

@@ -1,0 +1,9 @@
+.selectFilter{
+    width: max-content;
+    padding: 5px 10px;
+    color: black;
+    background:#ff9900;
+    border-radius: 50px;
+    border: 1px solid black;
+
+}
